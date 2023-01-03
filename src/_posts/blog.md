@@ -1,0 +1,25 @@
+---
+slug: blog
+title: The blog
+date: '2022-01-02'
+---
+The first step in any bad adventure is to start a blog.
+
+For this blog, we'll use `Next.js` and `Markdown`. The blog posts will be written in Markdown, and we'll use Next.js to render them (using SSR!). Markdown cuts down on the amount of code we need to write, and Next.js makes it easy to render Markdown. Win win.
+
+## Markdown to HTML
+
+We'll make use of the `gray-matter` library to parse the frontmatter from the Markdown file. We'll also use `remark` to convert the Markdown to HTML. We'll use `remark-html` to convert the Markdown to HTML.
+
+front-matter is the metadata at the top of a Markdown file. It's a way to add metadata to a Markdown file. For example, the front-matter for this file looks like this (the bits between the `---`'s):
+
+```markdown
+---
+slug: blog
+title: A blog
+date: '2022-01-02'
+---
+
+# The Blog
+...
+```

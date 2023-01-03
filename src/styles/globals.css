@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  background-color: #15162c;
+}
+
+.aura {
+  position: relative;
+  overflow: hidden;
+  background-color: #15162c;
+  background-image:
+    radial-gradient(at top left, #2e026d, transparent),
+    radial-gradient(at top right, #15162c, transparent),
+    radial-gradient(at right, #2e026d, #096c64, transparent),
+    radial-gradient(at bottom left, #15162c, transparent);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}

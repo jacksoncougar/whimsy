@@ -14,7 +14,7 @@ export function Header() {
             width={96}
             height={96}
           />
-          <h1 className="m-5 text-4xl font-bold text-white">Whimsy</h1>
+          <h1 className="m-5 text-4xl font-bold text-white">Bullshit and Whimsy</h1>
         </Link>
       </div>
     </div>

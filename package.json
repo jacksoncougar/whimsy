@@ -10,6 +10,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^2.2.1",
+    "@next/mdx": "^13.1.1",
     "@prisma/client": "^4.5.0",
     "@tanstack/react-query": "^4.16.0",
     "@trpc/client": "^10.0.0",
@@ -22,6 +24,7 @@
     "react-dom": "18.2.0",
     "reading-time": "^1.5.0",
     "remark": "^14.0.2",
+    "remark-frontmatter": "^4.0.1",
     "remark-html": "^15.0.1",
     "superjson": "1.9.1",
     "zod": "^3.18.0"

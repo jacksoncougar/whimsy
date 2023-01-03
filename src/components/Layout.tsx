@@ -1,7 +1,6 @@
 import Head from "next/head"
-import { Footer } from "./Footer"
 import { Header } from "./Header"
-import { Aura } from "./Aura"
+import { Footer } from "./Footer"
 
 type Props = {
   preview?: boolean

@@ -1,7 +1,7 @@
 // title and date are props passed to the component
 // nice layout
 
-export function PostTitle({ title, date, readingTime }) {
+export function PostTitle({ title, date, readingTime } : any) {
   return (
     <div className="flex flex-col gap-2">
       <h1 className="text-6xl font-bold tracking-tight text-white">{title}</h1>

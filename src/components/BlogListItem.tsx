@@ -1,4 +1,4 @@
-export function BlogListItem({ title, date }) {
+export function BlogListItem({ title, date }: any) {
   return (
     <li className="list-disc marker:text-white py-4">
       <div className="inline-flex text-lg w-[50%]">

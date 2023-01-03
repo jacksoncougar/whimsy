@@ -18,8 +18,7 @@ type Props = {
   allPosts: Post[]
 }
 
-const Home: NextPage = ({ allPosts }: Props) => {
-  const hello = trpc.example.hello.useQuery({ text: "from tRPC" })
+const Home: NextPage<Props> = ({ allPosts }: Props) => {
 
   // group posts by month
   const postsByMonth = allPosts.reduce((acc, post) => {

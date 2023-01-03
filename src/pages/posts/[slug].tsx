@@ -7,14 +7,14 @@ import readingTime from 'reading-time'
 
 
 
-export default function Doc({ meta, content }) {
-  return <Layout meta={meta}>
+export default function Doc({ meta, content }: any) {
+  return <Layout>
     <PostTitle title={meta?.title} date={meta?.date} readingTime={meta.readingTime} />
     <PostBody content={content} />
   </Layout >
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: any) {
   const doc = getPostBySlug(params.slug, [
     'title',
     'date',
